@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+.block {
+	height: 50px;
+	background-color: green;
+}
+.google {
+	height: 100%;
+}
+.block-2{
+	height: 100px;
+	width: 100px;
+	border: 5px solid red;
+	margin-top: 35px;
+	margin-left: 15px;
+	font-size: 30px;
+	padding: 10px;
+	float: left;
+}
+.container{
+	background-color: aqua;
+}
+.clearfix{
+	clear: both;
+}
