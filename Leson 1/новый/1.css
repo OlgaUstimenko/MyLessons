@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "PT Sans", sans-serif;
+}
+.wrapper {
+	
+	margin: 0 auto;
+	box-shadow: 0 0 2px #cccccc;
+}
+.header,
+.footer{
+	padding: 10px;
+	background: #ecf0f1;
+	min-height: 50px;
+}
+
+
+.sidebar{
+	min-height: 650px;
+	padding: 10px;
+	color: white;
+	background: rgba(115, 239, 154, 0.5);
+	float: left;
+	width: 350px;
+}
+
+.content{
+	min-height: 650px;
+	padding: 10px;
+	color: white;
+	background: rgba(128, 181, 242, 0.5);
+    margin-left: 370px;
+}
+
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
