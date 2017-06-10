@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul.menu {
+    display: flex;
+    justify-content: flex-start;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border: 1px solid green;
+    padding: 20px;
+    position: relative;
+    width: 80px;
+    transition: 1s;
+}
+.list {
+   visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+}
+ul li:hover > .list{
+   visibility: visible;
+    opacity: 1;
+   
+    
+}
+.list2 {
+   visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    left: 100%;
+    top:0;
+    transition: 1s;
+}
+ul li:hover > .list2{
+    visibility: visible;
+    opacity: 1;
+    
+
+}
+li li:hover {
+    width: 100px;
+    
+}

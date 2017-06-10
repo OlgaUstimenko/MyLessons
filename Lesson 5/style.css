@@ -1,0 +1,39 @@
+
+.block1 {
+    width: 20px;
+    border: 1px solid red;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.block2-1 {
+    width: 60px;
+    border: 1px solid red;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.block {
+    display: flex;
+    border: 1px solid green;
+    padding: 20px;
+}
+@media (min-width: 992px) and (max-width:1199px){
+    .block {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+}
+@media (min-width: 768px) and (max-width:991px){
+    .block{
+       flex-direction: column;
+    }
+
+}
+@media (max-width:767px){
+    .block1 {
+        display: none;
+    }
+
+}

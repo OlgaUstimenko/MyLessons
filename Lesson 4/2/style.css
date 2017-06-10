@@ -1,0 +1,22 @@
+span {
+    margin-left: 10px;
+    margin-right: 70px;
+  
+}
+.select1 {
+    width: 30px;
+}
+.row {
+    margin-bottom: 20px;
+    
+}
+.Gender {
+    margin-bottom: 20px;
+}
+.email {
+     margin-bottom: 20px;
+}
+.password span {
+    margin-left: 10px;
+    margin-right: 50px;
+}
