@@ -226,6 +226,7 @@ h3 a:hover {
          padding:  30px 80px 30px 80px;
          display: flex;
          background-color: #e0e1e2;
+         justify-content: space-between;
      }
      .block4 li {
          margin-bottom: 20px;
@@ -236,6 +237,23 @@ h3 a:hover {
          color: #313233;
          font-size: 13px;
      }
+     .lessons {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+     }
+     .lessons a, .Community a, .contact a {
+         color: #5a7aad;
+     }
+     .lessons li, .Community li, .contact li {
+        margin-top: 5px;
+        margin-bottom: 10px;
+     }
+     .training {
+         margin-bottom: 10px;
+     }
+     /*footer*/
+    
 /*media*/
 
 @media ( min-width:992px ) and ( max-width:1199px ){
@@ -379,6 +397,9 @@ h3 a:hover {
        height: 30px;
          width: 40px;
     }
+    .block4 {
+        padding:  30px 5px 30px 5px;
+    }
 }
 @media ( max-width: 479px) {
     header {
@@ -483,4 +504,17 @@ h3 a:hover {
        height: 30px;
          width: 40px;
     }
+    .block4 {
+        padding:  30px 5px 30px 5px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .block4 li {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    }
+    .block4 h5 {
+        margin-right: 10px;
+    }
+   
 }
