@@ -277,6 +277,12 @@ h3 a:hover {
     .network {
         width: 31%;
     }
+    .blue p {
+        margin-left: 15px;
+    }
+    .soc {
+    align-items: center;
+}
 }
 @media ( min-width:768px ) and ( max-width:991px ){
     header> ul {
