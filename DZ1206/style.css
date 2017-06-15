@@ -221,7 +221,7 @@ h3 a:hover {
          margin-right: 5px;
      }
      /*block4*/
-     .block4 {
+     .block4, .footer {
          width: 100%;
          padding:  30px 80px 30px 80px;
          display: flex;
@@ -242,7 +242,7 @@ h3 a:hover {
          flex-direction: column;
          justify-content: space-between;
      }
-     .lessons a, .Community a, .contact a {
+     .lessons a, .Community a, .contact a, .footer a {
          color: #5a7aad;
      }
      .lessons li, .Community li, .contact li {
@@ -253,6 +253,20 @@ h3 a:hover {
          margin-bottom: 10px;
      }
      /*footer*/
+     .footer a {
+         font-size: 13px;
+     }
+     .footer ul {
+         display: flex;
+         justify-content: space-between;
+         width: 50%;
+     }
+     .footer {
+         justify-content: space-between;
+     }
+     strong {
+         font-size: 17px;
+     }
     
 /*media*/
 
@@ -306,6 +320,15 @@ h3 a:hover {
     .soc3 {
         border-top: 1px solid white;
         padding-top: 10px;
+        width: 100%;
+    }
+     .footer ul {
+         width: 70%;
+     }
+      .footer{
+        padding: 20px 5px 20px 5px;
+    }
+    .loading3 {
         width: 100%;
     }
 }
@@ -399,6 +422,25 @@ h3 a:hover {
     }
     .block4 {
         padding:  30px 5px 30px 5px;
+    }
+    .footer {
+        flex-wrap: wrap;
+    }
+      .footer ul {
+         width: 100%;
+     }
+      .footer{
+        padding: 20px 5px 20px 5px;
+     
+    }
+    .footer pre {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 50%;
+
+    }
+    .load4 {
+        right: 0px;
     }
 }
 @media ( max-width: 479px) {
@@ -505,7 +547,7 @@ h3 a:hover {
          width: 40px;
     }
     .block4 {
-        padding:  30px 5px 30px 5px;
+        padding:  30px 5px 0px 5px;
         flex-wrap: wrap;
         justify-content: flex-start;
     }
@@ -516,5 +558,26 @@ h3 a:hover {
     .block4 h5 {
         margin-right: 10px;
     }
-   
+   .block4 div{
+       margin-bottom: 20px;
+   }
+    .footer {
+        flex-wrap: wrap;
+    }
+      .footer ul {
+         width: 100%;
+        flex-direction: column;
+     }
+      .footer{
+        padding: 20px 5px 20px 5px;
+     
+    }
+    .footer pre {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .load2 {
+        right: 0px;
+    }
+
 }
