@@ -69,19 +69,22 @@ nav> ul{
 
 }
 /*--поле поиска надо доделать --*/
+
 .input{
     width: 200px;
     border-radius: none;
     visibility: hidden;
     opacity: 0;
-    transition: 0.5s;
+    transition: 1s;
+
 
 }
 
-form img:hover > .input {
+form .search:hover > .input {
     visibility: visible;
     opacity: 1;
 }
+
 .loading li {
     margin-bottom: 15px;
 }
