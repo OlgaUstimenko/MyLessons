@@ -106,19 +106,20 @@ a:hover {
     width: 50%;
     background-color: #d9d9db;
     padding: 20px;
+    position: relative;
 }
-.postroiki {
+.postroiki, .all-property {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.nedvij {
+.nedvij, .property {
     width: 49%;
     margin-bottom: 15px;
     background-color: white;
     padding: 20px;
 }
-.nedvij li {
+.content li {
     list-style: none;
     color: #7fa3c6;
     line-height: 25px;
@@ -158,4 +159,49 @@ span p {
 .jk .kiev {
     color: gray;
    font-size: 13px;
+}
+.content a {
+    list-style: none;
+    color: #7fa3c6;
+    line-height: 25px;
+    text-decoration: none;
+}
+.content a:hover {
+    text-decoration: underline;
+}
+.block {
+    display: flex;
+    margin-top: 40px;
+
+}
+.block li {
+    margin-left: 10px;
+}
+.footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+.footer img {
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+}
+.ukraine {
+    display: flex;
+    margin-right: 10px;
+}
+.f {
+    color: #b7b9bc;
+}
+.help {
+     background-color: #f7a102;
+     width: 130px;
+     padding: 10px;
+     border-radius: 20px;
+     color: white;
+     font-size: 15px;
+     position: fixed;
+     bottom: 5px;
+     right: 10px;
 }
