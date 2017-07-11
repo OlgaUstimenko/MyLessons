@@ -321,10 +321,10 @@ span p {
    .footer-lun {
         margin-top: 330px;
         font-size: 12px;
-        position: absolute;
+      flex-direction: row;
     }
     .footer-lun .contact {
-    width: 50%;
+        width: 50%;
     }
     .lun h2 {
         font-size: 18px;
@@ -401,11 +401,12 @@ span p {
        padding-right: 10px;
        display: flex;
        justify-content: center;
+       margin-bottom: 170px;
+     
    }
    .footer-lun {
         position: absolute;
-        flex-direction: column;
-       
+        flex-direction: column;  
     }
     #spisok, .search {
         width: 160px;
@@ -416,13 +417,16 @@ span p {
     .contact p {
         margin-bottom: 5px;
     }
+    
 }
 @media ( max-width: 479px) {
     .lun {
         width: 100%;
+        height: 100%;
     }
     .background {
         width: 100%;
+        height: 100%;
     }
     .content {
         width: 100%;

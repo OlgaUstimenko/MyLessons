@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: auto;
+    background-image: url(img/back.jpg);  
+}
+
+/*header*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #dbdcdd;
+    padding: 10px 60px 10px 60px;
+    font-size: 15px;
+    width: 100%;
+     position: relative;
+}
+.header .first-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.World_of > li {
+     list-style: none;
+}
+.header li {
+    margin-right: 20px;
+}
+.header >.first-menu a {
+     color: #965f16;
+     font-size: 15px;
+     text-decoration: none;
+}
+
+.first-menu a:hover {
+    color: #c18f03;
+}
+.header .registration a {
+    color: #dbdcdd;
+}
+.header .registration a:hover {
+    color: white;
+}
+/*drop-down list*/
+.games {
+    visibility: hidden;
+    opacity: 0;
+    transition-delay: 0.5s;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    font-family: "warhelioscondcregular", Arial, "Helvetica CY", Helvetica, sans-serif;
+    background-image: url(img/menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+ul  li:hover> .games {
+    visibility: visible;
+    opacity: 1;
+}
+.games .logo {
+width: 40%;
+}
+.World_of {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 160px 15px 160px;
+    background: rgba(34,34,36,0.6);
+    
+}
+.World_of li {
+    text-align: center;
+}
+/*Hover for .World_of*/
+.Tanks:hover {
+    color:#e8600b;
+}
+.Warships:hover {
+    color: #0bd9e0;
+}
+.Xbox:hover {
+    color: #ead920;
+}
+.Blitz:hover {
+    color: #f49b35;
+}
+.Warplanes:hover {
+    color: #527cf9;
+}
+.Arena:hover {
+    color: #e5b175;
+}
+.Orion:hover {
+    color: #7533f7;
+}
+/*description of drop-down list*/
+.description {
+    display: flex;
+    justify-content: center;
+    padding: 35px 160px 25px 280px;
+    color: white;
+    line-height: 25px;
+    font-size: 13px;
+}
+.description img {
+    margin-top: 50px;
+}
+.puncts_description {
+    width: 30%;
+    padding-right: 50px;
+}
+.description h3 {
+    color: #e8600b;
+    margin-bottom: 20px;
+}
+.text div {
+    display: flex;
+    margin-top: 20px;
+}
+.text div p {
+    margin-right: 20px;
+}
+.puncts_description .link a{
+    color: white;
+    font-size: 13px;
+}
+.puncts_description .link a:hover {
+    text-decoration: underline;
+}
+.wot_logo {
+    width: 20%;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+/*main menu*/
+.main_menu {
+    width: 100%;
+    padding: 20px 140px 20px 140px;
+    background-color: rgba(82, 81, 84, 0.7);
+    list-style: none;
+    display: flex;
+    color: #dbdcdd;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 700;
+    align-items: center;
+    font-family:"Arial Narrow",Arial,sans-serif;
+}
+.main_menu  img {
+    width: 40px;
+}
+.main_menu a {
+    color: #dbdcdd;
+    text-decoration: none;
+}
