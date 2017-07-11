@@ -213,14 +213,55 @@ ul  li:hover> .material {
     color: white;
     font-family:"Arial Narrow",Arial,sans-serif;
     margin-top: 100px;
-    padding-left: 180px;
+    padding-left: 200px;
+    align-items: flex-end;
+    margin-bottom: 30px;
 }
 .soft h1 {
-    font-size: 25px;
+    font-size: 26px;
+    margin-right: 20px;
     
 }
-.soft  span {
+.soft  div {
     font-size: 13px;
-    text-decoration: 
-    
+    border-bottom: 1px dashed white;  
 }
+/*Выпадающий список категории*/
+.categories {
+     background-color: #191818;
+     color: #dbdcdd;
+    visibility: hidden;
+    opacity: 0;
+    transition-delay: 0.5s;
+    position: absolute;
+    width: 10%;
+    left: 0px;
+    font-family: "warhelioscondcregular", Arial, "Helvetica CY", Helvetica, sans-serif;
+    left: 385px;
+    list-style: none;
+}
+.soft div:hover> .categories {
+    visibility: visible;
+    opacity: 1;
+}
+.categories li {
+    padding: 10px;
+    border-bottom: 1px solid #070707;
+}
+/*block1*/
+.block1 {
+    margin: 20px 200px 20px 200px;
+    padding-bottom: 20px;
+     display: flex;
+}
+.armor {
+    background-image: url(img/armor.png);
+    width: 55%;
+    height: 250px;
+}
+.armor:hover {
+    background-size: 120%;
+    background-position: center;
+
+}
+
