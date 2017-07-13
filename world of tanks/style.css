@@ -7,9 +7,10 @@ body {
     width: 100%;
    background-image: url(img/back.jpg) ; 
     background-position: 50% 0;
-    height: 100%;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
 
 /*header*/
@@ -362,7 +363,42 @@ h4 {
 .name_of h1 {
     font-size: 20px;
     color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+.name_of a {
+    text-decoration: none;
+    color: #f4aa42;
+    font-size: 14px;
+     margin-bottom: 20px;
+
+}
+.name_of .material-icons {
+        font-size: 17px;
+}
+.mobile {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.mobile-punkt:hover {
+    border: 1px solid rgb(82, 81, 84); 
+    
+}
+.mobile-punkt img {
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+}
+.mobile-deskript {
+    padding: 10px;
+}
+.icon1 {
+    margin-top:  20px;
+}
+
 
 
 
