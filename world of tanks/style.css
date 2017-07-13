@@ -16,7 +16,10 @@ body {
     width: 100%;
     background-repeat: no-repeat; 
 }
-
+.fon2 {
+   background-image: url(img/fon2.png);
+   height: 100%;
+}
 /*header*/
 .header{
     display: flex;
@@ -364,6 +367,10 @@ h4 {
 .picture_1 {
      margin-top: 25px;
 }
+.name_of { 
+    display: flex;
+
+}
 /*Мобильные приложения*/
 .name_of h1 {
     font-size: 20px;
@@ -376,11 +383,12 @@ h4 {
     color: #f4aa42;
     font-size: 14px;
      margin-bottom: 20px;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 10px;
 
 }
-.name_of .material-icons {
-        font-size: 17px;
-}
+
 .mobile {
     display: flex;
     justify-content: space-between;
