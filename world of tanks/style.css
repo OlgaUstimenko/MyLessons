@@ -5,12 +5,18 @@
 }
 body {
     width: 100%;
-   background-image: url(img/back.jpg) ; 
+   
+  
+  
+}
+.fon {
+    background-image: url(img/back.jpg) ; 
     background-position: 50% 0;
     height: auto;
+    width: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
-   
+  
+  
 }
 
 /*header*/
@@ -141,10 +147,11 @@ width: 40%;
 .puncts_description .link a:hover {
     text-decoration: underline;
 }
+
 .wot_logo {
-    width: 20%;
-    margin-left: 170px;
-    margin-top: 20px;
+    width: 25%;
+    margin-left: -30px;
+    margin-top: 41px;
 }
 /*main menu*/
 .main_menu {
@@ -363,8 +370,8 @@ h4 {
 .name_of h1 {
     font-size: 20px;
     color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 .name_of a {
     text-decoration: none;
@@ -398,6 +405,12 @@ h4 {
 .icon1 {
     margin-top:  20px;
 }
+
+.video {
+   
+    width: 45%;
+}
+
 
 
 
