@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+}
+.header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.header a {
+    color: #f24b09;
+    text-decoration: none;
+}
+.menu {
+    color: white;
+    background-color: #f24b09;
+     position: relative;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    list-style:  none;
+    padding: 20px;
+   
+}
+.menu ul a {
+    color: white;
+    text-decoration: none;
+}
+.list {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+   background-color: #f24b09;
+   width: 10%;
+   transition: 1s;
+   left: 0px;
+}
+
+ ul li:hover > .list{
+   visibility: visible;
+    opacity: 1;    
+}
+#search {
+   padding: 20px;
+   background-color: #a03b04;
+   color: white;  
+}
+.block {
+    display: flex;
+    padding: 40px 40px 40px 20%;
+    width: 100%;
+    
+}
+.recept {
+ 
+    background-color: #e5e4e3;
+    margin-bottom: 30px;
+    padding: 25px;
+    width: 79%;
+}
+.recept h3 {
+    font-size: 25px;
+    color: #232322;
+   border-bottom: 1px solid #a1a3a2;
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+.t {
+    border-bottom: 1px solid #a1a3a2;
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+ .recept a {
+ text-decoration: none;
+ }
+ .recept h3:hover {
+     text-decoration: underline;
+     color: #003a15;
+ }
+.recept i {
+    font-size: 15px;
+}
+.recept img {
+    width: 100%;
+}
+.time {
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+.time div {
+    display: flex;
+    font-size: 13px;
+}
+.recept img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.rubrika {
+    display: flex;
+    
+}
+.rubrika p {
+    font-size: 13px;
+}
+.bar {
+
+}
+.bar a{
+    color: grey;
+    text-decoration: none;
+}
+.rubriki a:hover {
+    text-decoration: underline;
+}
+.rubriki ul{
+    list-style: none;
+    line-height: 30px;
+}
+.bar h4 {
+    padding-bottom: 10px;
+    border-bottom: 1px dotted gray;
+}
+.metki ul {
+    display:  flex;
+     list-style: none;
+     flex-wrap: wrap;
+     margin-top: 10px;
+    
+
+
+}
+.metki li {
+    background-color: #f24b09;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    
+}
+.metki a {
+    color: white;
+}
