@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    background-image: url(img/header.jpg);
+    background-attachment: fixed;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: inherit;
+    color: #2c2d2d;
+   
+}
+/*
+.background {
+      background-image: url(img/header.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: 100%;
+     background-attachment: fixed;
+     background-position: center;
+}
+*/
+.header {
+   width: 100%;
+   background-color: #4e82b2;
+   color: white;
+   text-align: center;
+   padding: 60px;
+}
+h1 {
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+button {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    background-color:#4e82b2;
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+    font-size: 15px;
+    border-radius: 5%;
+}
+.material-icons {
+    font-size: 94px;
+}
+.lorem {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    padding: 80px 120px 80px 120px;
+   
+}
+.text {
+    width: 40%;
+}
+ img {
+   border-radius: 2%;
+}
+h2 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.dolor {
+    width: 100%;
+    display: flex;
+    padding: 80px 120px 80px 120px;
+    justify-content: space-between;
+    color: white;
+    background-color: rgba(102, 114, 108, 0.4);
+    
+}
+.icon {  
+    width: 45%;
+   
+}
+.icon-block {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 140px;   
+}
+.icon1 {
+    color: #d8f981;
+}
+.icon2 {
+    color: #80f47c;
+}
+.icon3 {
+    color: #5fe8cc;
+}
+.icon4 {
+    color: #60b5f2;
+}
+.icon5 {
+    color: #1a96ef;
+}
+.icon6 {
+    color: #a960f2;
+}
+.adipisking {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 80px 120px 80px 120px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.block {
+    text-align: center;
+    width: 25%;
+}
+.block img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.block button {
+    background-color: white;
+    color:  #2c2d2d;
+    border: 1px solid  #2c2d2d;
+    padding: 15px 40px 15px 40px;
+}
+.block  h3{
+    margin-bottom: 20px;
+}
+.feugiat {
+      padding: 80px 120px 80px 120px;
+      text-align: center;
+      color: white;
+}
+.feugiat button {
+    padding: 15px 40px 15px 40px;
+     background-color: rgba(102, 114, 108, 0.4);
+    color: white;
+}
