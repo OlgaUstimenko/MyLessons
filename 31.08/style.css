@@ -136,9 +136,174 @@ h2 {
       padding: 80px 120px 80px 120px;
       text-align: center;
       color: white;
+      background-color: rgba(102, 114, 108, 0.4);
 }
 .feugiat button {
     padding: 15px 40px 15px 40px;
      background-color: rgba(102, 114, 108, 0.4);
     color: white;
 }
+.footer {
+    width: 100%;
+    background-color: #4e82b2;
+    
+    
+}
+.icon7 {
+    color: white;
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+.socseti {
+    display: flex;
+    justify-content: center;
+     padding: 80px 120px 80px 120px;
+}
+/*adapt*/
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .lorem img{
+        width: 50%;
+    }
+}
+@media (min-width: 768px)and (max-width: 991px){
+     .lorem img{
+        width: 50%;
+        height: 100%;
+    }
+    .lorem {
+        padding: 80px 30px 80px 30px;
+    }
+    h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .text {
+    width: 60%;
+    }
+    .dolor{
+        padding: 80px 30px 80px 30px;
+    }
+    .icon-block {
+            justify-content: space-between;
+    }
+    .icon {
+    width: 35%;
+    }
+    .adipisking{
+        padding: 80px 30px 80px 30px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 480px){
+    .header {
+        padding: 50px 11px 50px 11px;
+    }
+    .lorem img{
+        width: 100%;
+        height: 100%;
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .text{
+        order: 2;
+        width: 100%;
+    }
+    .lorem {
+        flex-direction: column;
+        padding: 50px 30px 50px 30px;
+    }
+   h2 {
+      font-size: 25px;
+   }
+   .dolor {
+        flex-direction: column;
+        padding: 50px 30px 50px 30px;
+   }
+   .icon {
+    width: 100%;
+    }
+    .icon-block {
+        margin-bottom: 50px;
+    }
+    .adipisking {
+        padding: 50px 30px 50px 30px;
+    }
+    .h3{
+        font-size: 10px;
+    }
+    .block {
+        width: 30%;
+    }
+    .feugiat {
+         padding: 50px 30px 50px 30px;
+    }
+}
+@media (max-width: 479px){
+        .header {
+        padding: 50px 11px 50px 11px;
+    }
+    .lorem img{
+        width: 100%;
+        height: 100%;
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .text{
+        order: 2;
+        width: 100%;
+    }
+    .lorem {
+        flex-direction: column;
+        padding: 50px 20px 50px 20px;
+    }
+   h2 {
+      font-size: 18px;
+      line-height: 35px;
+      margin-bottom: 30px;
+   }
+   .dolor {
+        flex-direction: column;
+        padding: 50px 20px 50px 20px;
+   }
+   .icon {
+    width: 100%;
+    }
+    .icon-block {
+        margin-bottom: 50px;
+    }
+    .adipisking {
+        padding: 50px 20px 50px 20px;
+    }
+    .h3{
+        font-size: 10px;
+    }
+    .block {
+        width: 100%;
+    }
+    .feugiat {
+         padding: 50px 20px 50px 20px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    body {
+        font-size: 15px;
+    }
+    button {
+        margin-bottom: 35px;
+        font-size: 13px;
+    }
+    .material-icons {
+    font-size: 23px;
+    }
+    .info {
+        flex-direction: column;
+    }
+    .socseti {
+         padding: 50px 20px 50px 20px;
+    }
+}
+
