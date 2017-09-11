@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1920px;
+    background-color: white;
+    font-style: Bold;
+    color: #646464;
+}
+.header {
+    display: flex;
+    padding-left: 320px;
+    padding-right: 320px;
+    justify-content: space-between;
+    font-style: Bold;
+    color: #646464;
+    font-size: 21px;
+    width: 100%;
+    height: 145px;
+    align-items: center;
+   
+}
+
+.email_phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 442px;
+}
+.block1 {
+    border-top: 1px solid #f2f2f2;
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   position: relative;
+}
+.text {
+    padding-top: 220px;
+    padding-left: 323px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    
+}
+.block1 img{
+      margin-left: 858px;
+   
+}
+.stroka1 {
+    font-size: 74.4px;
+    color: #717171;
+}
+.stroka2 {
+    font-size: 59.27px;
+    color: #13bbcb;
+}
+.stroka3 {
+    font-size: 127.57px;
+    color: #717171;
+}
+.vid {
+    display: flex;
+    justify-content: space-between;
+    font-size: 29.83px;
+    color: #13bbcb;
+}
+.p1 {
+     border-right: 1px solid #717171;
+     padding-right: 18px;
+}
+button {
+    background-color: #ecb803;
+    height: 100px;
+    width: 330px;
+    color: #282828;
+    font-style: semibold;
+    font-size: 45.14px;
+    margin-top: 135px;
+    border-radius: 20px 0px 20px 0px;
+}
+.block2 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 335px;
+  
+    
+}
+.avia {
+    width: 365px;
+}
+.punkts {
+      justify-content: space-between;
+      width: 960px;
+      padding-top: 175px;
+      padding-bottom: 140px;
+      font-size: 24px;
+      color: #646464;
+}
+.perevozka {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 120px;
+}
+.doc-box {
+    display: flex;
+    justify-content: space-around;
+}
+.avto {
+    width: 365px;
+}
+.doc {
+    width: 365px;
+}
+.box {
+    width: 365px;
+}
+h3 {
+    font-family: Semibold;
+    font-size: 36px;
+    color: #3caa90;
+    margin-bottom: 40px;
+}
+.block3 {
+    width: 100%;
+    padding-right: 335px;
+    display: flex;
+    justify-content: space-between;
+}
+.info {
+    padding-top: 170px;
+    padding-bottom: 125px;
+    font-size: 24px;
+   
+}
+.zagol {
+    font-size: 24px;
+    color: #3caa90;
+    margin-bottom: 110px;
+}
+
+.ponimaem {
+    margin-top: 115px;
+    display: flex;
+}
+.info img {
+    margin-right: 24px;
+}
+a {
+    color: #646464;
+}
+.block4 {
+    display: flex;
+    width: 100%;
+    padding-right: 335px;
+}
+.foto{
+    margin-top: 180px;
+    margin-bottom: 238px;
+}
+.foto1 {
+    display: flex;
+    
+}
+.foto7 {
+    width: 101%;
+}
+.block5 {
+  
+    width: 100%;
+    padding-right: 335px;
+    position: relative;
+}
+.otziv {
+    margin-left: 320px;
+   height: 345px; 
+}
+.otzivi {
+     display: flex;
+}
+.otziv1 {
+    margin-top: 168px;
+    margin-left: 225px;
+    margin-right: 78px;
+    margin-bottom: 475px;
+}
+.kate {
+    border-radius: 50%;
+}
+.otziv1-niz {
+    display: flex;
+}
+.otziv1-niz img {
+margin-right: 25px;
+}
+.otziv2 {
+    margin-top: 305px;
+}
+.otziv2-niz {
+    display: flex;
+}
+.otziv2-niz img {
+margin-right: 25px;
+}
+.bird {
+    position: absolute;
+    top: 650px;
+}
+.button-otziv {
+    font-size: 27px;
+    width: 265px;
+    height: 70px;
+    position: absolute;
+    bottom: 120px;
+    right: 880px;
+}
+.block6 {
+    display: flex;
+    padding-right: 310px;
+}
+.dannie {
+    display: flex;
+    flex-direction: column;
+    margin-top: 190px;
+}
+form {
+    
+    font-family: regular;
+    font-size: 16.17px;
+}
+.forma {
+    display: flex;
+}
+.dannie h3 {
+    font-family: regular;
+    font-size: 16.17px;
+}
+li {
+    list-style: none;
+    margin-bottom: 50px;
+}
+.block6 input {
+    border: none;
+  
+
+}
+li {
+    border-bottom: 1px solid #e6e6e6;
+}
+ul {
+    width: 400px;
+}
+.first {
+    margin-right: 170px;
+}
+.dop {
+    width: 960px;
+}
+.block6-2 {
+    margin-left: 75px;
+}
+.submit {
+    font-size: 27px;
+    width: 265px;
+    height: 70px;
+    background-color: #ecb803;
+    color: #282828;
+    font-style: semibold;
+    border-radius: 20px 0px 20px 0px;
+    margin-top: 102px;
+ 
+}
+.block7 {
+    padding-left: 213px;
+    display: flex;
+    width: 100%;
+    padding-right: 335px;
+    justify-content: space-between;
+
+}
+.kontakts {
+    margin-top: 83px;
+    height: 100%;
+}
+.sviaz {
+    padding-top: 186px;
+}
+.sviaz input {
+    height: 55px;
+    width: 317px;
+    margin-bottom: 30px;
+}
+
+.submit2 {
+    font-size: 27px;
+    width: 195px;
+    height: 60px;
+    background-color: #ecb803;
+    color: #282828;
+    font-style: semibold;
+    border-radius: 20px 0px 20px 0px;
+    margin-top: 33px;
+    margin-bottom: 65px;
+}
+.soc {
+    margin-right: 50px;
+}
+.contact{
+    margin-bottom: 35px;
+}
+.phones {
+    padding-top: 230px;
+    padding-bottom: 315px;
+    font-size: 24px;
+}
+.dannie2 h3{
+    font-family: regular;
+    font-size: 16.17px;
+}
+.footer {
+    margin-top: 53px;
+}
+textarea {
+    width: 315px;
+}
