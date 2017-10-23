@@ -406,3 +406,138 @@ ul {
 textarea {
     width: 315px;
 }
+/*adapt*/
+@media (min-width: 992px) and (max-width: 1199px){
+   .text {
+        padding-left: 46px;
+   }
+    .stroka1 {
+        font-size: 40px;
+    }
+    .stroka2 {
+        font-size: 35px;
+    }
+    .stroka3 {
+        font-size: 67px;
+    }
+    button {
+        height: 80px;
+        width: 230px;
+        font-size: 32.14px;
+        margin-top: 85px;
+    }
+    .vid {
+            font-size: 16.83px;
+    }
+     .punkts {
+           font-size: 17px;
+    }
+     h3 {
+        font-size: 20px;
+    }
+     .avia, .avto, .doc, .box {
+        width: 40%;
+    }
+  .perevozka {
+        margin-bottom: 60px;
+    }
+
+    .info {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        font-size: 17px;
+        width: 50%;
+    }
+    .ponimaem {
+        margin-top: 50px;
+    }
+    .info img{
+        width: 50%;
+    }
+     .foto1 {
+        flex-direction: column;
+   }
+   .foto1_1 {
+        display: none;
+   }
+   .otziv {
+    margin-left: 155px;
+   }
+   .otziv2 {
+       display: none;
+   }
+   .button-otziv {
+       right: 45px;
+   }
+    .first {
+    margin-right: 89px;
+} 
+   ul {
+    width: 350px;
+}
+.dop {
+    width: 790px;
+}
+.number {
+        margin-left: 5%;
+        font-size: 40px;
+        width: 67px;
+}
+   .wrapperblock4 .numeral_text {
+    margin-top: 265px;
+}
+.numeral_text span {
+    margin-top: 130px;
+}
+.block6 .numeral_text span {
+    margin-top: 380px;
+}
+.foto {
+    margin-top: 100px;
+}
+
+
+  /* 
+   
+
+   .block6 >img {
+        width: 50%;
+        height: 50%; 
+    }
+    .forma {
+        flex-direction: column;
+    }
+    .dop {
+    width: 400px;
+}
+.form1 {
+    margin-bottom: 50px;
+}
+.block7 {
+    padding-left: 0px;
+    padding-right: 10px;
+    width: 100%;
+}
+.footer {
+    width: 100%;
+}
+.phones {
+    margin-left: 30px;
+}
+.block5 {
+    width: 100%;
+}
+.block6 {
+    width: 100%;
+}
+*/
+}
+@media (min-width: 768px)and (max-width:991px){
+
+}
+@media (max-width: 767px) and (min-width: 480px){
+
+}
+@media (max-width: 479px){
+
+}
