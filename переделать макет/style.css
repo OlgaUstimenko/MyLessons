@@ -1,0 +1,408 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    background-color: white;
+    font-style: Bold;
+    color: #646464;
+}
+.wrapper {
+    width: 100%;
+}
+.header{
+    display: flex;
+    width: 100%;
+    max-width: 1920px;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-style: Bold;
+    color: #646464;
+    font-size: 21px;
+    height: 145px;
+    align-items: center;
+    margin: 0 auto;
+}
+.email_phone {
+    display: flex;
+    justify-content: space-between;
+    width: 442px;
+}
+.wrapperblock {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: auto;
+
+}
+.wrapperblock1 {
+    width: 100%;
+    background-image: url(img/box.png);
+    background-position-x: 100%;
+    background-position-y: 0%;
+ 
+}
+.block {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    padding-right: 5%;
+}
+.block1 {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    border-top: 1px solid #f2f2f2;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.text {
+    padding-top: 220px;
+   /* padding-left: 323px;*/
+    padding-left: 10%;
+   margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.stroka1 {
+    font-size: 74.4px;
+    color: #717171;
+}
+.stroka2 {
+    font-size: 59.27px;
+    color: #13bbcb;
+}
+.stroka3 {
+    font-size: 127.57px;
+    color: #717171;
+}
+.vid {
+    display: flex;
+    justify-content: space-between;
+    font-size: 29.83px;
+    color: #13bbcb;
+    width: 50%;
+}
+.p1 {
+     border-right: 1px solid #717171;
+     padding-right: 18px;
+}
+button {
+    background-color: #ecb803;
+    height: 100px;
+    width: 330px;
+    color: #282828;
+    font-style: semibold;
+    font-size: 45.14px;
+    margin-top: 135px;
+    border-radius: 20px 0px 20px 0px;
+}
+/*блок2*/
+.wrapperblock2 {
+    background-image: url(img/pappi.png);
+    background-position-x: 10%;
+    background-position-y: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.number {
+    display: block;
+    font-size: 60px;
+    color: #03967d;
+    width: 80px;
+    margin-left: 18%;
+    margin-top: 7%;
+}
+.numeral {
+    border: 10px solid #03967d;
+    border-radius: 50%;
+}
+.numeral_text {
+    transform: translate(0%,352%) rotate(-90deg);
+    transform-origin: 0 0;
+}
+.avia {
+    width: 365px;
+}
+.punkts {
+      justify-content: space-between;
+      width: 60%;
+      padding-top: 175px;
+      padding-bottom: 140px;
+      font-size: 24px;
+      color: #646464;
+}
+.perevozka {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 120px;
+  margin: 0 auto;
+}
+.doc-box {
+    display: flex;
+    justify-content: space-around;
+}
+.avto {
+    width: 365px;
+}
+.doc {
+    width: 365px;
+}
+.box {
+    width: 365px;
+}
+h3 {
+    font-family: Semibold;
+    font-size: 36px;
+    color: #3caa90;
+    margin-bottom: 40px;
+}
+/*блок3*/
+.wrapperblock3 {
+    background-image: url(img/cat.png);
+    background-position-x: 5%;
+    background-position-y: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.info {
+    font-size: 24px;
+  /* margin: 0 auto;*/
+   width: 60%;
+}
+.zagol {
+    font-size: 24px;
+    color: #3caa90;
+    margin-bottom: 110px;
+}
+
+.ponimaem {
+    margin-top: 115px;
+    display: flex;
+}
+.info img {
+    margin-right: 24px;
+}
+a {
+    color: #646464;
+}
+.numeral_text span{
+    display: flex;
+    margin-top: 160px;
+}
+.numeral_text span p{
+    margin-right: 15px;
+}
+/*блок4*/
+.wrapperblock4 {
+    background-image: url(img/rebbit.png);
+    background-position-x: 10%;
+    background-position-y: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.foto{
+    margin-top: 180px;
+  
+
+}
+.foto1 {
+    display: flex;
+    
+}
+.foto7 {
+    width: 100%;
+}
+.wrapperblock4 .numeral_text {
+    margin-top: 364px;
+}
+/*блок5*/
+.wrapperblock5 {
+
+    display: flex;
+    background-image: url(img/bird.png);
+    background-position-x: 0%;
+    background-position-y: 100%;
+    background-size: auto;   
+}
+.block5 {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+  /*  padding-right: 335px; */
+    position: relative;
+   
+}
+.otziv {
+    margin-left: 320px;
+   height: 345px; 
+}
+.otzivi {
+     display: flex;
+     margin: 0 auto;
+}
+.otziv1 {
+    margin-top: 168px;
+    /*margin-left: 225px;*/
+    margin-right: 78px;
+    margin-bottom: 475px;
+}
+.kate {
+    border-radius: 50%;
+}
+.otziv1-niz {
+    display: flex;
+}
+.otziv1-niz img {
+margin-right: 25px;
+}
+.otziv2 {
+    margin-top: 305px;
+}
+.otziv2-niz {
+    display: flex;
+}
+.otziv2-niz img {
+margin-right: 25px;
+}
+.button-otziv {
+    font-size: 27px;
+    width: 265px;
+    height: 70px;
+    position: absolute;
+    bottom: 120px;
+    right: 425px;
+}
+.text-otziv {
+    color: gray;
+    font-size: 15px;
+}
+.block5 {
+    justify-content: space-between;
+}
+.block5 .numeral_text span{
+    margin-top: 30px;
+}
+/*блок6*/
+.wrapperblock6 {
+
+    display: flex;
+    background-image: url(img/tiger.png);
+    background-position-x: 10%;
+    background-position-y: 100%;
+    background-size: auto;   
+}
+.block6-2 {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%; 
+    margin-top: 190px;
+    margin-bottom: 240px; 
+}
+form {
+    
+    font-family: regular;
+    font-size: 16.17px;
+}
+.forma {
+    display: flex;
+    justify-content: center;
+}
+.dannie h3 {
+    font-family: regular;
+    font-size: 16.17px;
+}
+li {
+    list-style: none;
+    margin-bottom: 50px;
+}
+.block6 input {
+    border: none;
+  
+
+}
+li {
+    border-bottom: 1px solid #e6e6e6;
+}
+ul {
+    width: 400px;
+}
+.first {
+    margin-right: 170px;
+}
+.dop {
+    width: 960px;
+}
+
+.submit {
+    font-size: 27px;
+    width: 265px;
+    height: 70px;
+    background-color: #ecb803;
+    color: #282828;
+    font-style: semibold;
+    border-radius: 20px 0px 20px 0px;
+    margin-top: 102px;
+ 
+}
+.block6 .numeral_text span{
+    margin-top: 565px;
+}
+/*блок7*/
+.wrapperblock7 {
+
+    display: flex;
+}
+.kontakts {
+    margin-top: 83px;
+    height: 100%;
+}
+.sviaz {
+    padding-top: 186px;
+    margin: 0 auto;
+}
+.sviaz input {
+    height: 55px;
+    width: 317px;
+    margin-bottom: 30px;
+}
+
+.submit2 {
+    font-size: 27px;
+    width: 195px;
+    height: 60px;
+    background-color: #ecb803;
+    color: #282828;
+    font-style: semibold;
+    border-radius: 20px 0px 20px 0px;
+    margin-top: 33px;
+    margin-bottom: 65px;
+}
+.soc {
+    margin-right: 50px;
+}
+.contact{
+    margin-bottom: 35px;
+}
+.phones {
+    padding-top: 230px;
+    padding-bottom: 315px;
+    font-size: 24px;
+    margin: 0 auto;
+}
+.dannie2 h3{
+    font-family: regular;
+    font-size: 16.17px;
+}
+.footer {
+    margin-top: 53px;
+}
+textarea {
+    width: 315px;
+}

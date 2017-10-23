@@ -35,8 +35,8 @@ body {
 }
 .block1 {
     border-top: 1px solid #f2f2f2;
-     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-     max-width: 1920px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    max-width: 1920px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -191,6 +191,29 @@ a {
     
      
 }
+.wrapperblock6 {
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    background-image: url(img/tiger.png);
+    
+    background-color: white;
+    background-position-x: 0%;
+    background-position-y: 100%;
+    background-size: auto;
+    margin: 0 auto;
+    position: relative;
+     
+}
+.wrapperblock7 {
+   
+    width: 100%;
+    display: flex;
+   
+    margin: 0 auto;
+   max-width: 1920px;
+     
+}
 .block5 {
     max-width: 1920px;
     margin: 0 auto;
@@ -199,19 +222,33 @@ a {
     position: relative;
    
 }
-.block5 .four{
+.block6-2 {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+  
+
+   
+}
+
+.four{
+    height: 5%;
+    display: flex;
     font-size: 60px;
     color: #03967d;
-    transform: translate(70%,40%) rotate(-90deg);
-     transform-origin: 0 0;
-}
-.four img {
-     transform: translate(117%,28%) rotate(90deg);
-     transform-origin: 0 0;
-}
+    transform: translate(58%,526%) rotate(-90deg);
+    transform-origin: 0 0;
+    }
+    
 .otziv {
     margin-left: 320px;
    height: 345px; 
+}
+.four p {
+    border: 10px solid #03967d;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 5px;
 }
 
 .otzivi {
@@ -256,13 +293,35 @@ margin-right: 25px;
 }
 .block6 {
     display: flex;
-    padding-right: 310px;
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+   
 }
 .dannie {
     display: flex;
     flex-direction: column;
     margin-top: 190px;
+  
+   
 }
+.five {
+    border: 10px solid #03967d;
+    border-radius: 50%;
+    
+        margin-left: 12px;
+    margin-bottom: -42px;
+}
+.wrapperblock6 .four {
+    position: absolute;
+    top: 155px;
+}
+.wrapperblock7 .four {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+
 form {
     
     font-family: regular;
@@ -270,6 +329,7 @@ form {
 }
 .forma {
     display: flex;
+    justify-content: center;
 }
 .dannie h3 {
     font-family: regular;
@@ -296,9 +356,7 @@ ul {
 .dop {
     width: 960px;
 }
-.block6-2 {
-    margin-left: 75px;
-}
+
 .submit {
     font-size: 27px;
     width: 265px;
@@ -316,6 +374,7 @@ ul {
     width: 100%;
     padding-right: 335px;
     justify-content: space-between;
+    position: relative;
 
 }
 .kontakts {
@@ -324,6 +383,7 @@ ul {
 }
 .sviaz {
     padding-top: 186px;
+    margin: 0 auto;
 }
 .sviaz input {
     height: 55px;
@@ -352,6 +412,7 @@ ul {
     padding-top: 230px;
     padding-bottom: 315px;
     font-size: 24px;
+    margin: 0 auto;
 }
 .dannie2 h3{
     font-family: regular;
